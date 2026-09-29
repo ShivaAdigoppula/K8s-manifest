@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: shaikmustafa/mygame
+        image: shiva9515/k8sproject:image1
         ports:
         - containerPort: 80   
 

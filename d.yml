@@ -17,7 +17,7 @@ spec:
       - name: tetris
         image: shiva9515/k8sproject1:image1
         ports:
-        - containerPort: 80   
+        - containerPort: 3000    
 
 ---
 apiVersion: v1
@@ -30,5 +30,5 @@ spec:
   ports:
   - protocol: TCP
     port: 80                 # Expose port 80
-    targetPort: 80
+    targetPort: 3000
   type: LoadBalancer
